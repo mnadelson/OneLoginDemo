@@ -1,0 +1,16 @@
+security:
+  oauth2:
+    client:
+      clientId: 2bd7cef0-433a-0139-c8db-0afc111402c1184059
+      clientSecret: 0b8c8748b996adce4be1a7a49159de565e4789799c92e3859d3e6ae736de4e70
+      accessTokenUri: https://mayfair-compute-dev.onelogin.com/oidc/2/token
+      userAuthorizationUri: https://mayfair-compute-dev.onelogin.com/oidc/2/auth
+      tokenName: access_token
+      authorizedGrantTypes: authorization_code
+      authenticationScheme: form
+      clientAuthenticationScheme: form
+      scope: openid,profile,email
+    resource:
+      userInfoUri: https://mayfair-compute-dev.onelogin.com/oidc/2/me
+server:
+  port : 8888
